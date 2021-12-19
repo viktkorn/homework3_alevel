@@ -1,0 +1,89 @@
+blockquote {
+  color: blue;
+}
+
+a[href^="https"] {
+  color: red;
+}
+
+.list>li:last-child a {
+  background: green;
+}
+
+.list+p {
+  font-size: 26px;
+}
+
+.text-box h3:first-child {
+  color: pink;
+}
+
+#greycol {
+  color: grey;
+}
+
+.text-box div p {
+  color: red;
+}
+
+.text-box p:nth-child(7) {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.bg-box {
+  background-color: green;
+  width: 500px;
+  min-height: 283px;
+  background-image: url("../images/lamp.png"),
+    url("../images/house.jpg"),
+    url("../images/grass.png"),
+    url("../images/donut.png"),
+    url("../images/hedgehog.png");
+  background-position: top left,
+    center center,
+    bottom left,
+    bottom right,
+    bottom left;
+  background-repeat: repeat-x,
+    no-repeat,
+    repeat-x,
+    repeat-y,
+    repeat-y;
+  background-size: 20px 30px,
+    250px 150px,
+    115px 100px,
+    15px 15px,
+    15px 15px;
+}
+.hm3_green-box{
+  width: 350px;
+  height: 220px;
+  padding: 15px 10px 20px;
+  margin-bottom: 30px;
+  background-color: green;
+  border: 2px dashed red;
+}
+.hm3_text-box{
+  width: 615px;
+  min-height: 393px;
+  text-align: justify;
+}
+.hm3_text-box img:first-child{
+  float: left;
+  margin: 0 20px 10px 0;
+}
+.hm3_text-box img{
+  float: right;
+  margin: 15px 0 10px 15px;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
